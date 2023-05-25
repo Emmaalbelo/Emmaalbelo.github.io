@@ -281,7 +281,7 @@ img {
 
 /*==================== HOME ====================*/
 .home {
-  background-image: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url("/packages/images/fondohome.png");
+  background-image: linear-gradient(rgba(255,254,253,0.8), rgba(255,254,253,0.8)), url("/packages/images/fondohome.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -289,7 +289,7 @@ img {
 }
 
 .home-dark-mode-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/packages/images/fondohome.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/packages/images/fondohome.png");
 }
 
 .home__container {
@@ -521,14 +521,17 @@ img {
   background: #0274b3;
 }
 
-.About__social .github:hover span {
+.social .github:hover span {
   background: #000000;
 }
 
-.About__social .github:hover span i {
+.social .github:hover span i {
   color: #ffffff;
 }
 
+.social .linkedin:hover span {
+  color: #3564c9;
+}
 a {
   text-decoration: none;
 }
@@ -562,7 +565,7 @@ a {
 /*==================== SKILLS ====================*/
 
 .skills {
-  background-image: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url("/packages/images/fondo.png");
+  background-image: linear-gradient(rgba(255,254,253,0.8), rgba(255,254,253,0.8)), url("/packages/images/fondo.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -570,7 +573,7 @@ a {
 }
 
 .skills-dark-mode-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/packages/images/fondo.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/packages/images/fondo.png");
 }
 
 .skills__container {
@@ -868,9 +871,6 @@ a {
   margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover .button__icon {
-  transform: translateX(0.25rem);
-}
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
@@ -902,35 +902,6 @@ a {
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
-}
-
-/*==================== PROJECT IN MIND ====================*/
-.project {
-  text-align: center;
-}
-
-.project__bg {
-  background-color: var(--first-color-second);
-  padding-top: 3rem;
-}
-
-.project__title {
-  font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-0-75);
-}
-
-.project__description {
-  margin-bottom: var(--mb-1-5);
-}
-
-.project__title,
-.project__description {
-  color: #fff;
-}
-
-.project__img {
-  width: 232px;
-  justify-self: center;
 }
 
 /*==================== CONTACT ME ====================*/
@@ -1014,15 +985,6 @@ a {
   color: var(--first-color-lighter);
 }
 
-.footer__social {
-  font-size: 1.25rem;
-  margin-right: var(--mb-1-5);
-}
-
-.footer__social:hover {
-  color: var(--first-color-lighter);
-}
-
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
@@ -1036,6 +998,111 @@ a {
 .footer__social {
   color: #fff;
 }
+
+
+
+.footer__socials {
+  display: grid;
+  margin-top: 10px;
+  margin-left: 120px;
+  grid-template-columns: 1fr;
+  /* Cambia a una sola columna para que los iconos aparezcan verticalmente */
+  justify-content: center;
+  /* Centra los iconos horizontalmente */
+  grid-row: span 2;
+  /* Aumenta la altura del elemento para ocupar dos filas */
+}
+
+/*config esferas*/
+.footer__socials .icon {
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/*esfera fondo*/
+.footer__socials .icon span {
+  display: block;
+  height: 65px;
+  width: 65px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 5;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.336);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/*posicion icono*/
+.footer__socials .icon span i {
+  line-height: 65px;
+  font-size: 40px;
+  color: #000;
+  transition: 0.5s;
+}
+
+/*color fondo icono*/
+.footer__socials .icon span i:hover {
+  color: #fff;
+}
+
+.footer__socials:hover {
+  transform: translateY(-12px);
+}
+
+.footer__socials .icon:hover .tooltip {
+  top: -70px;
+  opacity: 0;
+  pointer-events: auto;
+}
+
+.footer__socials .icon:hover span {
+  color: #fff;
+}
+
+.footer__socials .icon:hover span,
+.footer__socials .icon:hover .tooltip {
+  text-shadow: 0px -1.5px 0px rgba(0, 0, 0, 0.415);
+}
+
+.footer__socials .github:hover span {
+  background: #000000;
+}
+
+.footer__socials .github:hover span i {
+  color: #ffffff;
+}
+
+.footer__socials .linkedin:hover span i {
+  color: #3564c9;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__socials__container {
+    grid-template-columns: 1fr;
+    /* Change to a single column for smaller screens */
+  }
+
+  .footer__socials {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5px 0;
+  }
+
+  .footer__socials .icon {
+    margin: 0 5px;
+  }
+
+}
+
 
 /*========== SCROLL UP ==========*/
 .scrollup {
