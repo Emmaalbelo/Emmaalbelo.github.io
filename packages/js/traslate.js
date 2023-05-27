@@ -5,7 +5,7 @@ const translations = {
   title: "Desarrollador de software Junior",
   AboutMe: "Sobre mi",
   Introduction: "Mi Introduccion",
-  about__description: "Me gusta asegurarme de seguir buenas prácticas, como pruebas unitarias, revisiones de código y arquitectura. Poseo conocimientos en tecnologías de back-end, especialmente en el lenguaje Python y sus frameworks. Mi experiencia abarca la gestión eficiente de bases de datos SQL, lo cual me permite desarrollar soluciones robustas y escalables. Estoy en constante búsqueda de nuevas oportunidades para ampliar mi experiencia y conocimientos. Considero que mi enfoque metódico y mi pasión por la programación son activos valiosos que puedo aportar a cualquier proyecto.",
+  about__description: "Me gusta asegurarme de seguir buenas prácticas, como pruebas unitarias, revisiones de código y arquitectura. Poseo conocimientos en back-end, especialmente en el lenguaje Python y sus frameworks. Mi experiencia abarca la gestión eficiente de bases de datos SQL, lo cual me permite desarrollar soluciones robustas y escalables. Estoy en constante búsqueda de nuevas oportunidades para ampliar mi experiencia y conocimientos. Considero que mi enfoque metódico y mi pasión por la programación son activos valiosos que puedo aportar a cualquier proyecto.",
   Download: "Descargar CV",
   technical_level: "Mi nivel tecnico",
   skills__title: 'Desarrollador de software',
@@ -40,6 +40,20 @@ const translations = {
   servWeb2: 'Desarrollo de páginas web.',
   servWeb3: 'Diseño web adaptable',
   servWeb4: 'Diseño en WordPress.',
+  Portfolio: 'Portafolio',
+  MostRecent: 'Trabajos mas recientes', 
+  port1_desc: 'Utilizado para dar estilo y dar vida al sitio web, aplicando técnicas de diseño modernas como la capacidad de respuesta y animaciones sutiles.',
+  Python_port: 'Aplicacion de escritorio con Python',
+  port2_desc: 'Diseñado para gestionar estudiantes, conectado a una base de datos. Proporciona una interfaz fácil de usar para realizar diversas tareas relacionadas con la gestión de estudiantes, como agregar nuevos estudiantes, actualizar su información y generar informes.',
+  project: 'Tienes un nuevo proyecto?',
+  ContactMe: 'Contactame',
+  Call: 'Llamame',
+  Location: 'Localización',
+  Send: 'Enviar mensaje',
+  ServicesFoot: 'Servicios',
+  PortfolioFoot: 'Portafolio',
+  ContactFoot: 'Contacto',
+
 };
 
 const originalTexts = {
@@ -48,7 +62,7 @@ const originalTexts = {
   title: "Junior software developer",
   AboutMe: "About Me",
   Introduction: "My Introduction",
-  about__description: "I like to make sure to follow good practices such as unit testing, code reviews, and architecture. I have knowledge in backend technologies, particularly in the Python language and its frameworks. My experience includes efficient management of SQL databases, which allows me to develop robust and scalable solutions. I am constantly seeking new opportunities to expand my experience and knowledge. I believe that my methodical approach and passion for programming are valuable assets that I can contribute to any project.",
+  about__description: "I like to make sure to follow good practices such as unit testing, code reviews, and architecture. I have knowledge in backend, particularly in the Python language and its frameworks. My experience includes efficient management of SQL databases, which allows me to develop robust and scalable solutions. I am constantly seeking new opportunities to expand my experience and knowledge. I believe that my methodical approach and passion for programming are valuable assets that I can contribute to any project.",
   Download: "Download CV",
   technical_level:"My technical level",
   skills__title: 'Software developer',
@@ -83,6 +97,19 @@ const originalTexts = {
   servWeb2: 'Webpage development.',
   servWeb3: 'Responsive web design.',
   servWeb4: 'Design in WordPress.',
+  Portfolio: 'Portfolio',
+  MostRecent: 'Most recent works',
+  port1_desc: 'Used to style and bring life to the website, applying modern design techniques such as responsiveness and subtle animations.',
+  Python_port: 'Python desktop app',
+  port2_desc: 'Designed to manage students, connected to a database. It provides a user-friendly interface for performing various tasks related to student management, such as adding new students, updating their information, and generating reports.',
+  project: 'You have a new project?',
+  ContactMe: 'Contact me',
+  Call: 'Call me',
+  Location: 'Localization',
+  Send: 'Send message',
+  ServicesFoot: 'Services',
+  PortfolioFoot: 'Portfolio',
+  ContactFoot: 'Contact',
 
 };
 
