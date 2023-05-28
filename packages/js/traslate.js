@@ -45,6 +45,8 @@ const translations = {
   port1_desc: 'Utilizado para dar estilo y dar vida al sitio web, aplicando técnicas de diseño modernas como la capacidad de respuesta y animaciones sutiles.',
   Python_port: 'Aplicacion de escritorio con Python',
   port2_desc: 'Diseñado para gestionar estudiantes, conectado a una base de datos. Proporciona una interfaz fácil de usar para realizar diversas tareas relacionadas con la gestión de estudiantes, como agregar nuevos estudiantes, actualizar su información y generar informes.',
+  Python_Backend: 'Python Backend / FastAPI y SQL',
+  port3_desc: 'La combinación de FastAPI y una base de datos SQL permite desarrollar programas web eficientes con operaciones CRUD. FastAPI proporciona una sintaxis fácil de usar para definir rutas y modelos de datos, mientras que las bases de datos SQL permiten almacenar y recuperar datos de manera eficiente',
   project: 'Tienes un nuevo proyecto?',
   ContactMe: 'Contactame',
   Call: 'Llamame',
@@ -53,6 +55,7 @@ const translations = {
   ServicesFoot: 'Servicios',
   PortfolioFoot: 'Portafolio',
   ContactFoot: 'Contacto',
+  
 
 };
 
@@ -102,6 +105,8 @@ const originalTexts = {
   port1_desc: 'Used to style and bring life to the website, applying modern design techniques such as responsiveness and subtle animations.',
   Python_port: 'Python desktop app',
   port2_desc: 'Designed to manage students, connected to a database. It provides a user-friendly interface for performing various tasks related to student management, such as adding new students, updating their information, and generating reports.',
+  Python_Backend: 'Python Backend / FastAPI and SQL',
+  port3_desc: 'The combination of FastAPI and SQL database allows for the development of efficient web programs with CRUD operations. FastAPI provides an easy-to-use syntax for defining routes and data models, while SQL databases enable efficient storage and retrieval of data.',
   project: 'You have a new project?',
   ContactMe: 'Contact me',
   Call: 'Call me',
