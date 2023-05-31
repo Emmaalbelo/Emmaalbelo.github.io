@@ -57,6 +57,26 @@ skillsHeader.forEach((el) => {
   el.addEventListener("click", toggleSkills);
 });
 
+/*==================== QUALIFICATION TABS ====================*/
+const tabs = document.querySelectorAll("[data-target]"),
+  tabContents = document.querySelectorAll("[data-content]");
+
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    const target = document.querySelector(tab.dataset.target);
+
+    tabContents.forEach((tabContent) => {
+      tabContent.classList.remove("qualification__active");
+    });
+    target.classList.add("qualification__active");
+
+    tabs.forEach((tab) => {
+      tab.classList.remove("qualification__active");
+    });
+    tab.classList.add("qualification__active");
+  });
+});
+
 /*==================== SERVICES MODAL ====================*/
 const modalViews = document.querySelectorAll(".services__modal"),
   modalBtns = document.querySelectorAll(".services__button"),
@@ -178,9 +198,11 @@ themeButton.addEventListener("click", () => {
   // Toggle the dark mode class for the skills section
   const skillsSection = document.querySelector(".skills");
   const homeSection = document.querySelector(".home");
+  const servicesSection = document.querySelector(".services");
 
   skillsSection.classList.toggle("skills-dark-mode-bg");
   homeSection.classList.toggle("home-dark-mode-bg");
+  servicesSection.classList.toggle("services-dark-mode-bg");
 
   // We save the theme and the current icon that the user chose
   localStorage.setItem("selected-theme", getCurrentTheme());
