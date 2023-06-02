@@ -61,8 +61,9 @@
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
             <div class="nav__btns">
+                <!-- Change language -->
+                <button id="btn-cambiar" onclick="changelanguage()"></button>
                 <!-- Theme change button -->
-                <button id="btn-cambiar" onclick="cambiarIdioma()"></button>
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -721,7 +722,7 @@
                         <i class="uil uil-clock-eight contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title" id="Location">Contact hours</h3>
+                            <h3 class="contact__title" id="Cont_hours">Contact hours</h3>
                             <span class="contatc__subtitle">UE: 08 Hs  - 20 Hs
                             <br>  Arg: 06 Hs - 17 Hs</span>
                         </div>
@@ -795,7 +796,7 @@
                     </a>
                 </div>
             </div>
-            <p class="footer__coded"> Coded with effort and dedication. By Emmanuel Albelo</p>
+            <p class="footer__coded" id="footer__coded"> Coded with effort and dedication. By Emmanuel Albelo</p>
         </div>
     </footer>
 
@@ -803,7 +804,6 @@
     <a href="#" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
-
 
     <!--==================== SWIPER JS ====================-->
     <script src="./packages/js/swiper-bundle.min.js"></script>

@@ -1,32 +1,33 @@
 // Traducciones en español
 const translations = {
-  Descripcion: "Mi enfoque como desarrollador se caracteriza por mi dedicación autodidacta, mi atención meticulosa a los detalles y mi búsqueda constante de la perfección en mi trabajo",
+  // HOME
   greeting: "Hola, Soy Emmanuel",
   title: "Desarrollador FullStack",
+  Descripcion: "Mi enfoque como desarrollador se caracteriza por mi dedicación autodidacta, mi atención meticulosa a los detalles y mi búsqueda constante de la perfección en mi trabajo",
+  // ABOUT
   AboutMe: "Sobre mi",
-  Introduction: "Mi Introduccion",
   about__description: "Me gusta asegurarme de seguir buenas prácticas, como pruebas unitarias, revisiones de código y arquitectura. Poseo conocimientos en back-end, especialmente en el lenguaje Python y sus frameworks. Mi experiencia abarca la gestión eficiente de bases de datos SQL, lo cual me permite desarrollar soluciones robustas y escalables. Estoy en constante búsqueda de nuevas oportunidades para ampliar mi experiencia y conocimientos. Considero que mi enfoque metódico y mi pasión por la programación son activos valiosos que puedo aportar a cualquier proyecto.",
   Download: "Descargar CV",
+  // SKILLS
   technical_level: "Mi nivel tecnico",
   skills__title: 'Desarrollador de software',
-  exp_time:'Mas de 1 año',
-  Frameworks:'Frameworks populares de Python',
+  exp_time: 'Mas de 1 año',
+  Frameworks: 'Frameworks populares de Python',
   Data_Analyst: 'Analista de datos',
-  exp_time_Data:'Mas de 1 año',
+  exp_time_Data: 'Mas de 1 año',
   Web_Developer: 'Desarrollador Web',
-  exp_time_Web:'Mas de 1 año',
-
+  exp_time_Web: 'Mas de 1 año',
+  // QUALIFICATION
   Qualifications: "Formación y Experiencia profecional",
   journey: 'Mi recorrido personal',
   Education: 'Educación',
   Work: 'Trabajo',
   qualification1: 'Curso Maestro Python',
-
-
+  // SERVICE
   Services: 'Servicios',
   offer: 'Lo que ofrezco',
   Software_developer: 'Desarrollador de software',
-  Viewmore1:'Ver mas',
+  Viewmore1: 'Ver mas',
   Sof_developer: 'Desarrollador de software',
   servSoft1: 'Desarrollo de aplicaciones backend.',
   servSoft2: 'Implementar servicios web y APIs.',
@@ -48,48 +49,53 @@ const translations = {
   servWeb2: 'Desarrollo de páginas web.',
   servWeb3: 'Diseño web adaptable',
   servWeb4: 'Diseño en WordPress.',
+  // PORTFOLIO
   Portfolio: 'Portafolio',
-  MostRecent: 'Trabajos mas recientes', 
+  MostRecent: 'Trabajos mas recientes',
   port1_desc: 'Utilizado para dar estilo y dar vida al sitio web, aplicando técnicas de diseño modernas como la capacidad de respuesta y animaciones sutiles.',
   Python_port: 'Aplicacion de escritorio con Python',
   port2_desc: 'Diseñado para gestionar estudiantes, conectado a una base de datos. Proporciona una interfaz fácil de usar para realizar diversas tareas relacionadas con la gestión de estudiantes, como agregar nuevos estudiantes, actualizar su información y generar informes.',
   Python_Backend: 'Python Backend / FastAPI y SQL',
   port3_desc: 'La combinación de FastAPI y una base de datos SQL permite desarrollar programas web eficientes con operaciones CRUD. FastAPI proporciona una sintaxis fácil de usar para definir rutas y modelos de datos, mientras que las bases de datos SQL permiten almacenar y recuperar datos de manera eficiente',
+  // CONTACT ME
   project: '¿Buscas un profesional para tu equipo?',
   ContactMe: 'Contactame',
   Call: 'Llamame',
   Location: 'Localización',
+  Cont_hours: 'Horario de contacto',
   Send: 'Enviar mensaje',
+  // FOOTER
   ServicesFoot: 'Servicios',
   PortfolioFoot: 'Portafolio',
   ContactFoot: 'Contacto',
-  
-
+  footer__coded: 'Realizado con esfuerzo y dedicacion. Por Emmanuel Albelo',
 };
 
 const originalTexts = {
-  Descripcion: "My approach as a developer is characterized by my self-taught dedication, my meticulous attention to detail, and my constant pursuit of perfection in my work.",
+  // HOME
   greeting: "Hi, I'am Emmanuel",
   title: "FullStack Developer",
+  Descripcion: "My approach as a developer is characterized by my self-taught dedication, my meticulous attention to detail, and my constant pursuit of perfection in my work.",
+  // ABOUT
   AboutMe: "About Me",
-  Introduction: "My Introduction",
   about__description: "I like to make sure to follow good practices such as unit testing, code reviews, and architecture. I have knowledge in backend, particularly in the Python language and its frameworks. My experience includes efficient management of SQL databases, which allows me to develop robust and scalable solutions. I am constantly seeking new opportunities to expand my experience and knowledge. I believe that my methodical approach and passion for programming are valuable assets that I can contribute to any project.",
   Download: "Download CV",
-  technical_level:"My technical level",
+  // SKILLS
+  technical_level: "My technical level",
   skills__title: 'Software developer',
-  exp_time:'More than 1 year',
+  exp_time: 'More than 1 year',
   Frameworks: 'Popular Python Frameworks',
   Data_Analyst: 'Data Analyst',
-  exp_time_Data:'More than 1 year',
+  exp_time_Data: 'More than 1 year',
   Web_Developer: 'Web Developer',
   exp_time_Web: 'More than 1 year',
-
+  // QUALIFICATION
   Qualifications: "Qualifications and Experience",
   journey: 'My personal journey',
   Education: 'Education',
   Work: 'Work',
   qualification1: 'Python Master Course',
-
+  // SERVICE
   Services: 'Services',
   offer: 'What I offer',
   Software_developer: 'Software Developer',
@@ -103,11 +109,11 @@ const originalTexts = {
   Data_Analyst1: 'Data Analyst',
   DataAnalyst: 'Data Analyst',
   servData1: 'Analyze data systems.',
-  servData2:'Automating information retrieval.',
-  servData3:'Systematically applying statistical and logical techniques.',
-  servData4:'Visualizing graphs, charts and preparing reports and dashboards.',
-  servData5:'Manage databases.',
-  Viewmore2:'View more',
+  servData2: 'Automating information retrieval.',
+  servData3: 'Systematically applying statistical and logical techniques.',
+  servData4: 'Visualizing graphs, charts and preparing reports and dashboards.',
+  servData5: 'Manage databases.',
+  Viewmore2: 'View more',
   WebDeveloper1: 'Web Developer',
   WebDeveloper2: 'Web Developer',
   Viewmore3: 'View more',
@@ -115,6 +121,7 @@ const originalTexts = {
   servWeb2: 'Webpage development.',
   servWeb3: 'Responsive web design.',
   servWeb4: 'Design in WordPress.',
+  // PORTFOLIO
   Portfolio: 'Portfolio',
   MostRecent: 'Most recent works',
   port1_desc: 'Used to style and bring life to the website, applying modern design techniques such as responsiveness and subtle animations.',
@@ -123,19 +130,23 @@ const originalTexts = {
   Python_Backend: 'Python Backend / FastAPI and SQL',
   port3_desc: 'The combination of FastAPI and SQL database allows for the development of efficient web programs with CRUD operations. FastAPI provides an easy-to-use syntax for defining routes and data models, while SQL databases enable efficient storage and retrieval of data.',
   project: 'Are you looking for a professional for your team?',
+  // CONTACT ME
   ContactMe: 'Contact me',
   Call: 'Call me',
   Location: 'Localization',
+  Cont_hours: 'Contact hours',
   Send: 'Send message',
+  // FOOTER
   ServicesFoot: 'Services',
   PortfolioFoot: 'Portfolio',
   ContactFoot: 'Contact',
+  footer__coded: 'Coded with effort and dedication. By Emmanuel Albelo',
 
 };
 
 let isTranslated = false;
 
-function cambiarIdioma() {
+function changelanguage() {
   const btnCambiar = document.getElementById("btn-cambiar");
 
   Object.keys(translations).forEach(function (id) {
@@ -154,5 +165,5 @@ function cambiarIdioma() {
   isTranslated = !isTranslated;
 }
 
-// Llamar a la función cambiarIdioma() al cargar la página
-window.addEventListener("DOMContentLoaded", cambiarIdioma);
+// Call changelanguage() function on page load
+window.addEventListener("DOMContentLoaded", changelanguage);
