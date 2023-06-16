@@ -196,7 +196,7 @@ $( window ).resize( function() {
   $(function(){
   
           $("#typed").typed({
-              strings: ["Emmanuel","web developer","backend developer","frontend developer", "fullstack developer"], //Strings to display when typing
+              strings: ["Emmanuel","a web developer","a backend developer","a frontend developer", "a fullstack developer"], //Strings to display when typing
               typeSpeed: 40,
               backDelay: 600,
               loop: true,
