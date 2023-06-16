@@ -1502,3 +1502,77 @@ a {
 }
 
 
+
+/* MAQUINA DE ESCRIBIR */
+.splash {
+  background-size: cover;
+  color: #000000;
+}
+
+.splash .container {
+padding-top: 15vh; /* No JS fallback*/
+padding-bottom: 10vh; /* No JS fallback*/
+}
+
+
+.splash .lead, .splash .continue {
+display: inline-block;
+text-align: center;
+}
+h1.intro-text
+{
+margin:0;
+color: var(--text-color);
+}
+
+.splash .lead {
+font-size: var(--h3-font-size);
+color: var(--text-color);
+font-weight: var(--font-medium);
+margin-bottom: var(--mb-0-75);
+}
+
+@keyframes blink
+{
+          0% { opacity:1; }
+          50% { opacity:0; }
+          100% { opacity:1; }
+}
+      @-webkit-keyframes blink
+      {
+          0% { opacity:1; }
+          50% { opacity:0; }
+          100% { opacity:1; }
+      }
+      @-moz-keyframes blink
+      {
+          0% { opacity:1; }
+          50% { opacity:0; }
+          100% { opacity:1; }
+      }
+      @-ms-keyframes blink
+      {
+          0% { opacity:1; }
+          50% { opacity:0; }
+          100% { opacity:1; }
+      }
+      @-o-keyframes blink
+      {
+          0% { opacity:1; }
+          50% { opacity:0; }
+          100% { opacity:1; }
+      }
+
+/* code for animated blinking cursor */
+#typed-cursor
+{
+    opacity: 1;
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+    font-weight: 50;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
+    -ms-animation: blink 1s infinite;
+    -o-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}

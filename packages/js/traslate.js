@@ -1,7 +1,7 @@
 // Traducciones en español
 const translations = {
   // HOME
-  greeting: "Hola, Soy Emmanuel",
+  greeting: "Hola!",
   title: "Desarrollador FullStack",
   Descripcion: "Mi enfoque como desarrollador se caracteriza por mi dedicación autodidacta, mi atención meticulosa a los detalles y mi búsqueda constante de la perfección en mi trabajo",
   // ABOUT
@@ -73,7 +73,7 @@ const translations = {
 
 const originalTexts = {
   // HOME
-  greeting: "Hi, I'am Emmanuel",
+  greeting: "Hello!",
   title: "FullStack Developer",
   Descripcion: "My approach as a developer is characterized by my self-taught dedication, my meticulous attention to detail, and my constant pursuit of perfection in my work.",
   // ABOUT
