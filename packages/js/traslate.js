@@ -7,6 +7,7 @@ const translations = {
   AboutMe: "Sobre mi",
   about__description: "Me gusta asegurarme de seguir buenas prácticas, como pruebas unitarias, revisiones de código y arquitectura. Poseo conocimientos en back-end, especialmente en el lenguaje Python y sus frameworks. Mi experiencia abarca la gestión eficiente de bases de datos SQL, lo cual me permite desarrollar soluciones robustas y escalables. Estoy en constante búsqueda de nuevas oportunidades para ampliar mi experiencia y conocimientos. Considero que mi enfoque metódico y mi pasión por la programación son activos valiosos que puedo aportar a cualquier proyecto.",
   Download: "Descargar CV",
+  also: "Además, me pueden encontrar aquí.",
   // SKILLS
   technical_level: "Mi nivel tecnico",
   skills__title: 'Desarrollador de software',
@@ -67,7 +68,9 @@ const translations = {
   ServicesFoot: 'Servicios',
   PortfolioFoot: 'Portafolio',
   ContactFoot: 'Contacto',
-  footer__coded: 'Realizado con esfuerzo y dedicacion. Por Emmanuel Albelo',
+  footer__coded: 'Realizado con esfuerzo y dedicacion por Emmanuel Albelo',
+  // TIPING
+  profesiones: ["Emmanuel", "desarrollador web", "desarrollador backend", "desarrollador frontend", "desarrollador fullstack"],
 };
 
 const originalTexts = {
@@ -78,6 +81,7 @@ const originalTexts = {
   AboutMe: "About Me",
   about__description: "I like to make sure to follow good practices such as unit testing, code reviews, and architecture. I have knowledge in backend, particularly in the Python language and its frameworks. My experience includes efficient management of SQL databases, which allows me to develop robust and scalable solutions. I am constantly seeking new opportunities to expand my experience and knowledge. I believe that my methodical approach and passion for programming are valuable assets that I can contribute to any project.",
   Download: "Download CV",
+  also: "Also, I can be found here",
   // SKILLS
   technical_level: "My technical level",
   skills__title: 'Software developer',
@@ -138,7 +142,7 @@ const originalTexts = {
   ServicesFoot: 'Services',
   PortfolioFoot: 'Portfolio',
   ContactFoot: 'Contact',
-  footer__coded: 'Coded with effort and dedication. By Emmanuel Albelo',
+  footer__coded: 'Coded with effort and dedication by Emmanuel Albelo',
 
 };
 
