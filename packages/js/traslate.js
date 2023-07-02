@@ -5,7 +5,7 @@ const translations = {
   Descripcion: "Mi enfoque como desarrollador se caracteriza por mi dedicación autodidacta, mi atención meticulosa a los detalles y mi búsqueda constante de la perfección en mi trabajo",
   // ABOUT
   AboutMe: "Sobre mi",
-  about__description: "Me gusta asegurarme de seguir buenas prácticas, como pruebas unitarias, revisiones de código y arquitectura. Poseo conocimientos en back-end, especialmente en el lenguaje Python y sus frameworks. Mi experiencia abarca la gestión eficiente de bases de datos SQL, lo cual me permite desarrollar soluciones robustas y escalables. Estoy en constante búsqueda de nuevas oportunidades para ampliar mi experiencia y conocimientos. Considero que mi enfoque metódico y mi pasión por la programación son activos valiosos que puedo aportar a cualquier proyecto.",
+  about__description: "Soy un profesional autodidacta con una sólida formación en desarrollo web, especializado tanto en el frontend como en el backend. Especializado en Python y sus frameworks, con experiencia en HTML, CSS, JavaScript y manejo de bases de datos SQL. Interesado en buenas prácticas y en constante capacitación para aprender nuevas tecnologías. Orientado a la resolución de problemas y dispuesto a enfrentar desafíos en proyectos innovadores. Considero que mi enfoque metódico y mi pasión por la programación son activos valiosos que puedo aportar a cualquier proyecto.",
   Download: "Descargar CV",
   also: "Además, me pueden encontrar aquí.",
   // SKILLS
@@ -79,7 +79,7 @@ const originalTexts = {
   Descripcion: "My approach as a developer is characterized by my self-taught dedication, my meticulous attention to detail, and my constant pursuit of perfection in my work.",
   // ABOUT
   AboutMe: "About Me",
-  about__description: "I like to make sure to follow good practices such as unit testing, code reviews, and architecture. I have knowledge in backend, particularly in the Python language and its frameworks. My experience includes efficient management of SQL databases, which allows me to develop robust and scalable solutions. I am constantly seeking new opportunities to expand my experience and knowledge. I believe that my methodical approach and passion for programming are valuable assets that I can contribute to any project.",
+  about__description: "I am a self-taught professional with a strong background in web development, specializing in both frontend and backend. I have expertise in Python and its frameworks, along with experience in HTML, CSS, JavaScript, and SQL database management. I am interested in adhering to best practices and continuously learning new technologies. I am problem-solving oriented and ready to take on challenges in innovative projects. I believe that my methodical approach and passion for programming are valuable assets that I can contribute to any project.",
   Download: "Download CV",
   also: "Also, I can be found here",
   // SKILLS
